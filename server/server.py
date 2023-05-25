@@ -21,7 +21,7 @@ class Server(HTTPServer):
 if __name__ == "__main__":
 
     print("\n\n")
-    server = Server(('0.0.0.0', 1234), Handler)
+    server = Server(('0.0.0.0', 1111), Handler)
     print("Starting server %")
     server.serve_forever()
     server.server_close()
