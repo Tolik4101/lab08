@@ -1,7 +1,6 @@
 name: docker_compose
 on: [ push ]
 jobs:
-  version: "3"
   services:
 
     # Перечислим необходимые сервисы
